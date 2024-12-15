@@ -1,29 +1,3 @@
-# Ex.08 Design of Interactive Image Gallery
-# Date: 05.12.2024
-# AIM:
-To design a web application for an inteactive image gallery with minimum five images.
-
-# DESIGN STEPS:
-## Step 1:
-Clone the github repository and create Django admin interface.
-
-## Step 2:
-Change settings.py file to allow request from all hosts.
-
-## Step 3:
-Use CSS for positioning and styling.
-
-## Step 4:
-Write JavaScript program for implementing interactivity.
-
-## Step 5:
-Validate the HTML and CSS code.
-
-## Step 6:
-Publish the website in the given URL.
-
-# PROGRAM :
-```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +6,7 @@ Publish the website in the given URL.
   <title>Image Gallery</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
   <style>
-    /* Global Reset */
+    
     body {
       margin: 0;
       padding: 0;
@@ -61,7 +35,7 @@ Publish the website in the given URL.
       }
     }
 
-    /* Title Styling */
+    
     h1 {
       font-family: 'Playfair Display', serif;
       font-size: 4rem;
@@ -81,7 +55,7 @@ Publish the website in the given URL.
       }
     }
 
-    /* Gallery Container */
+    
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -103,7 +77,7 @@ Publish the website in the given URL.
       }
     }
 
-    /* Gallery Item */
+    
     .gallery-item {
       position: relative;
       overflow: hidden;
@@ -190,23 +164,24 @@ Publish the website in the given URL.
 <body>
 
   <h1>Image Gallery</h1>
+ 
 
   <div class="gallery">
     <div class="gallery-item">
-      <img src="img1.jpg" alt="Image 1">
-      <h2>Lamborghini urus</h2>
+      <img src="cricket.jpg" alt="Image 1">
+      <h2>RED BALL CRICKET</h2>
     </div>
     <div class="gallery-item">
-      <img src="img2.jpg" alt="Image 2">
-      <h2>Lamborghini Sian</h2>
+      <img src="pope.avif" alt="Image 2">
+      <h2>breaking stumps</h2>
     </div>
     <div class="gallery-item">
-      <img src="img3.jpeg" alt="Image 3">
-      <h2>Lamborghini aventador</h2>
+      <img src="lords.jpg" alt="Image 3">
+      <h2>HOME OF CRICKET , LORDS</h2>
     </div>
     <div class="gallery-item">
-      <img src="img4.jpg" alt="Image 4">
-      <h2>Lamborghini Hurracan</h2>
+      <img src="hardik.webp" alt="Image 4">
+      <h2>HARDIK-POLLARD</h2>
     </div>
   </div>
 
@@ -241,12 +216,3 @@ Publish the website in the given URL.
 
 </body>
 </html>
-```
-# OUTPUT:
-
-![alt text](<Screenshot (56).png>)
-![alt text](<Screenshot (57).png>)
-![alt text](<Screenshot (58).png>)
-
-# RESULT:
-The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
